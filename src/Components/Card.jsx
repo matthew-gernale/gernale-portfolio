@@ -1,6 +1,4 @@
-
 import '../index.css'
-
 
 
 const Card = () => {
