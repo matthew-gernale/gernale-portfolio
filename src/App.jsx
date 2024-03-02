@@ -1,37 +1,27 @@
 /* eslint-disable no-unused-vars */
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
-import Resume from './Components/Resume'
+import About from './Components/About'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import { Element } from 'react-scroll'
+import Footer from './Components/Footer'
+import Keycaps from './Components/Keycaps'
 
 
 function App() {
 
   return (
-    <main className="h-screen w-screen flex-col justify-center items-center px-40 overflow-x-hidden snap-y">
-        <Router>
-          <Navbar className=""/>
-          
-          <Element name="Hero">
-            <Route exact path="/" component="Hero" />
-          </Element>
+    <main className="h-screen w-screen flex-col justify-center items-center overflow-x-hidden scroll-smooth">
+      <Navbar className=""/>
 
-          <Element name="Resume">
-            <Router path="/Resume" component="Resume" />
-          </Element>
+      <Hero className=""/>
 
-          <Element name="Projects">
-            <Route path="/Projects" component="Projects" />
-          </Element>
+      <About className=""/>
+
+      <Projects className=""/>
     
-          <Element name="Contact">
-            <Route path="/Contact" component="Contact" />
-          </Element>
-
-        </Router>
+      <Contact className=""/>
+      <Footer />
     </main>
   )
 }
