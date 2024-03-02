@@ -1,11 +1,10 @@
 {
   "name": "my-online-portfolio",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.0",
   "type": "module",
   "homepage": "https://matthew-gernale.github.io/gernale-portfolio",
   "scripts": {
-    "start": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
