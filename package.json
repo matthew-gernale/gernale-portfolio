@@ -5,8 +5,9 @@
   "type": "module",
   "homepage": "https://matthew-gernale.github.io/gernale-portfolio",
   "scripts": {
-    "predeploy": "npm run dev",
-    "deploy": "gh-pages -d dev",
+    "start": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

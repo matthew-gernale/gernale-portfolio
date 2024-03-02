@@ -13,6 +13,7 @@ const About = () => {
                     </div>
                     <div className="flex flex-col gap-10">
                         <table>
+                            <tbody>
                                 <tr>
                                     <td className="pr-10 font-black uppercase">Full Name</td>
                                     <td>: John Matthew T. Gernale</td>
@@ -33,6 +34,7 @@ const About = () => {
                                     <td className="font-black uppercase">Email</td>
                                     <td>: matthewgernale26@gmail.com</td>
                                 </tr>
+                            </tbody>
                         </table>
                         <a href="images/John-Matthew-Gernale-RESUME.pdf" target="_blank" rel="noreferrer" className="btn px-5 py-7 rounded-md flex text-nowrap gap-7 text-sm items-center justify-center overflow-hidden">
                             <img src="images/dl-icon.png" className="w-5" />
@@ -51,7 +53,9 @@ const About = () => {
 
                         <table>
                             <thead>
-                                <td className="font-bold">Awards</td>
+                                <tr>
+                                    <td className="font-bold">Awards</td>
+                                </tr>
                             </thead>
                             <tbody>
                                 <tr>
