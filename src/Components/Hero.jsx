@@ -1,4 +1,5 @@
 import '../index.scss'
+import MyPic from '../images/hero-pic.png'
 
 
 const Hero = () => {
@@ -12,7 +13,7 @@ const Hero = () => {
                 <h1 className="text-9xl">Software Developer</h1>
             </div>
 
-            <img src="images/hero-pic.png" className="w-2/5 align-self-end" />
+            <img src={MyPic} className="w-2/5 align-self-end" />
         </div>
     );
 }

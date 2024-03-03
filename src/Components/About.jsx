@@ -1,4 +1,22 @@
 import '../index.scss'
+import JavaIcon from '../images/java-icon.png'
+import JsIcon from '../images/js-icon.png'
+import CsharpIcon from '../images/csharp-icon.png'
+import CppIcon from '../images/cpp-icon.png'
+import PhpIcon from '../images/php-icon.png'
+import HtmlIcon from '../images/html-icon.png'
+import CssIcon from '../images/css-icon.png'
+import ReactIcon from '../images/react-icon.png'
+import TailwindIcon from '../images/tailwind-icon.png'
+import BootstrapIcon from '../images/bootstrap-icon.png'
+import MysqlIcon from '../images/mysql-icon.png'
+import MssqlIcon from '../images/mssql-icon.png'
+import FigmaIcon from '../images/figma-icon.png'
+import PsIcon from '../images/ps-icon.png'
+import AiIcon from '../images/ai-icon.png'
+import CanvaIcon from '../images/canva-icon.png'
+import DownloadIcon from '../images/dl-icon.png'
+import Cv from '../images/John-Matthew-Gernale-RESUME.pdf'
 
 
 const About = () => {
@@ -36,8 +54,8 @@ const About = () => {
                                 </tr>
                             </tbody>
                         </table>
-                        <a href="images/John-Matthew-Gernale-RESUME.pdf" target="_blank" rel="noreferrer" className="btn px-5 py-7 rounded-md flex text-nowrap gap-7 text-sm items-center justify-center overflow-hidden">
-                            <img src="images/dl-icon.png" className="w-5" />
+                        <a href={Cv} target="_blank" rel="noreferrer" className="btn px-5 py-7 rounded-md flex text-nowrap gap-7 text-sm items-center justify-center overflow-hidden">
+                            <img src={DownloadIcon} className="w-5" />
                             <span className="">Download CV</span>
                         </a>
                     </div>
@@ -108,32 +126,32 @@ const About = () => {
                 <div className="title text-4xl flex flex-col items-center justify center gap-10">
                     <h2>Programming Languages</h2>
                     <div className="grid grid-flow-col gap-7">
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src="images/java-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src="images/js-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src="images/csharp-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src="images/cpp-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src="images/php-icon.png" /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src={JavaIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src={JsIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src={CsharpIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src={CppIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src={PhpIcon} /></div>
                     </div>
                 </div>
                 <div className="title text-4xl flex flex-col items-center justify-center gap-10">
                     <h2>Tech Stacks</h2>
                     <div className="grid grid-cols-5 gap-7 items-center justify-center w-fit">
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src="images/html-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src="images/css-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src="images/react-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src="images/tailwind-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src="images/bootstrap-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src="images/mysql-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src="images/mssql-icon.png" /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src={HtmlIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src={CssIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src={ReactIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src={TailwindIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src={BootstrapIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src={MysqlIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img src={MssqlIcon} /></div>
                     </div>                    
                 </div>
                 <div className="title text-4xl flex flex-col items-center justify-center gap-10">
                     <h2>Graphic Design Tools</h2>
                     <div className="grid grid-flow-col gap-7">
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src="images/figma-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src="images/ps-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src="images/ai-icon.png" /></div>
-                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src="images/canva-icon.png" /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src={FigmaIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src={PsIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src={AiIcon} /></div>
+                        <div className="skills w-fit rounded-lg cursor-pointer shadow-md"><img className="w-40" src={CanvaIcon} /></div>
                     </div>
                 </div>
             </div>
