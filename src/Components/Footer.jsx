@@ -17,7 +17,7 @@ const Footer = () => {
                     <img src={IgIcon} alt="social-icon" className="icon border  w-14 p-2 rounded-full cursor-pointer" />
                 </a>
                 
-                <a href="https://github.com/matthewGernale" target="_blank" rel="noreferrer">
+                <a href="https://github.com/matthew-gernale" target="_blank" rel="noreferrer">
                     <img src={GitIcon} alt="social-icon" className="icon border  w-14 p-2 rounded-full cursor-pointer" />
                 </a>
                 <a href="https://linkedin.com/in/john-matthew-gernale-baa2b4299/" target="_blank" rel="noreferrer">
