@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'matthew-gernale/gernale-portfolio/'
+  base: '/gernale-portfolio/gh-pages'
 })
